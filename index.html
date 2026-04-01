@@ -26,7 +26,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Animacje wejścia sekcji */
+
 .fade-in {
     opacity: 0;
     transform: translateY(40px);
@@ -40,7 +40,7 @@ body {
     }
 }
 
-/* Typewriter */
+
 .typewriter {
     overflow: hidden;
     white-space: nowrap;
@@ -57,7 +57,7 @@ body {
     50% { border-color: transparent }
 }
 
-/* Ostre rogi kontaktu */
+
 .contact-box,
 .contact-form input,
 .contact-form textarea,
@@ -65,7 +65,7 @@ body {
     border-radius: 0;
 }
 
-/* Kontakt pionowy – wąski */
+
 .contact-vertical {
     display: flex;
     flex-direction: column;
@@ -476,15 +476,36 @@ nav {
     <h2 class="works-title">WYBRANE PROJEKTY</h2>
     <p class="works-subtitle">Nowoczesne</p>
 
-    <div class="work-card">
-        <div class="work-window"></div>
-        <div class="work-info">
-            <h3>Grafiki</h3>
-            <span class="work-platform">Bannery</span>
-            <span class="work-tag">Loga</span>
+   <div class="section-works fade-in" id="projekty">
+    <h2 class="works-title">WYBRANE PROJEKTY</h2>
+    <p class="works-subtitle">Nowoczesne</p>
+
+    
+    <div style="display:flex; gap:40px; flex-wrap:wrap;">
+
+        
+        <div class="work-card">
+            <div class="work-window"></div>
+            <div class="work-info">
+                <h3>Grafiki</h3>
+                <span class="work-platform">Bannery</span>
+                <span class="work-tag">Loga</span>
+            </div>
         </div>
+
+        
+        <div class="work-card">
+            <div class="work-window"></div>
+            <div class="work-info">
+                <h3>Discord</h3>
+                <span class="work-platform">Serwery Discord</span>
+                <span class="work-tag">Designer</span>
+            </div>
+        </div>
+
     </div>
 </div>
+
 
 <div class="section-contact fade-in" id="kontakt">
     <div class="contact-box">
